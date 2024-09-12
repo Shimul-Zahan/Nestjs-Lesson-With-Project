@@ -32,4 +32,13 @@ export class UsersService {
             }
         ];
     }
+
+
+    getUserById(id: string) {
+        return {
+            id,
+            name: 'John Doe',
+            email: 'john.doe@example.com'
+        };
+    }
 }
