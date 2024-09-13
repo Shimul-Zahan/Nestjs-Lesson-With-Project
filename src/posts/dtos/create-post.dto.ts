@@ -27,7 +27,7 @@ export class CreatePostDto {
     status: PostStatus;
 
     @IsString()
-    @IsEmpty()
+    @IsOptional()
     content?: string;
 
     @IsString()
